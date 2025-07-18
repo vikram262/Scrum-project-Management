@@ -131,18 +131,3 @@ Once the application is running:
 
 8.  **Filter Issues**: Use the available filters to quickly find specific issues.
 
-## Contributing
-
-We welcome contributions to Zcrum! If you'd like to contribute, please follow these steps:
-
-1.  Fork the repository.
-
-2.  Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/issue-description`.
-
-3.  Make your changes and ensure the code adheres to the project's coding standards.
-
-4.  Write clear and concise commit messages.
-
-5.  Push your branch to your forked repository.
-
-6.  Open a pull request to the `main` branch of the original repository, describing your changes in detail.
