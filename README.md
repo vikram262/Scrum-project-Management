@@ -113,6 +113,36 @@ The application's data is structured around the following key models, managed by
 
 Relationships are defined to ensure data integrity, including one-to-many relationships between `Organization` and `Project`, `Project` and `Sprint`, `Sprint` and `Issue`, and `User` with `Issue` (assignee/reporter). Cascading deletes are implemented for related data (e.g., deleting a project deletes its sprints and issues).
 
-## Project Structure
+Once the application is running:
 
-The project adheres to a clear and organized Next.js application structure:
+1.  **Access the Application**: Open your web browser and navigate to `http://localhost:3000`.
+
+2.  **Sign Up / Sign In**: Create a new account or log in using your existing credentials or Google.
+
+3.  **Onboarding**: If you're a new user, you'll be guided through creating your first organization or joining an existing one.
+
+4.  **Organization Dashboard**: View your organization's projects and your assigned/reported issues.
+
+5.  **Create a Project**: As an organization administrator, you can create new projects from the organization dashboard.
+
+6.  **Manage Sprints**: Within a project, create new sprints and manage their statuses.
+
+7.  **Track Issues**: Add new issues to sprints and update their status by dragging them across the Kanban board.
+
+8.  **Filter Issues**: Use the available filters to quickly find specific issues.
+
+## Contributing
+
+We welcome contributions to Zcrum! If you'd like to contribute, please follow these steps:
+
+1.  Fork the repository.
+
+2.  Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/issue-description`.
+
+3.  Make your changes and ensure the code adheres to the project's coding standards.
+
+4.  Write clear and concise commit messages.
+
+5.  Push your branch to your forked repository.
+
+6.  Open a pull request to the `main` branch of the original repository, describing your changes in detail.
